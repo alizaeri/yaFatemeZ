@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="setting_menu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:itemBackground">#eeffffff</item>
+        <item name="android:textColor">#002548</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="texttt">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">30sp</item>
+        <!-- -->
+    </style>
+
+    <style name="set_radio">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#80828e</item>
+    </style>
+
+    <style name="textttsub">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">19sp</item>
+        <!-- -->
+    </style>
+
+    <style name="tvonred">
+        <item name="android:textColor">#ff5400</item>
+        <item name="android:textSize">18sp</item>
+        <!-- -->
+
+    </style>
+    <style name="tvongreen">
+        <item name="android:textColor">#5cff4b</item>
+        <item name="android:textSize">20sp</item>
+        <!-- -->
+
+    </style>
+    <style name="tvinfo">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="copyinfo">
+        <item name="android:textColor">#cccccc</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="textitle">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">22sp</item>
+        <!-- -->
+    </style>
+
+</resources>

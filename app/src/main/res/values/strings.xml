@@ -1,0 +1,254 @@
+<resources>
+
+    <!-- **************************Modifiable strings*************************** -->
+    <!-- app Name -->
+    <string name="app_name">زیارت عاشورا</string>
+    <!-- Google ad token -->
+    <string name="app_unit_id"> </string>
+    <string name="ad_unit_id_int"> </string>
+    <string name="ad_unit_id_ban"> </string>
+    <!---Cafe Bazar ad token-->
+    <string name="ad_cafee">11bcd23fedb24932a9c044dda7eda5b5</string>
+    <!-- One Signal -->
+    <string name="signal_key">0c1b6710-64d5-4d5d-b35b-9a74e589c89f</string>
+    <!---Tapsell hide key-->
+    <string name="tapcell_key"> </string>
+    <string name="videoZoneId"> </string>
+    <string name="some_error_occurred">Some error occurred</string>
+    <!---Ronash Pushe token-->
+    <string name="pushe_token">PUSHE_665905332652</string>
+    <string name="pushe_token_cr">aHR0cDovL2Q2NzY2ZDllMGNiNjQ4MjE4NzNmMjUyNjIxNTYxODdhOjM0MGI4ZjI2NzBjNDQ1ODZhYjUyN2E4YWVlOGNmMjE0QGNhLnB1c2hlLmlyLzE2MDk4</string>
+
+    <!-- Faraz Num -->
+    <string name="xCountString">34</string>
+    <!-- raw file name -->
+    <string name="rawString1">zaeri</string>
+    <string name="rawString2">farahmand</string>
+    <string name="rawString3">samavati</string>
+
+    <string name="url2">https://dl.dropboxusercontent.com/s/bzi5gatexsnkhgl/farahmand.mp3</string>
+    <string name="url3">https://dl.dropboxusercontent.com/s/2jtn9dh45cp17id/samavati.mp3</string>
+
+    <string name="ad_sdk_key">ve2eKDPIgm</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="text7ar"></string>
+    <!-- conter  -->
+    <string-array name="list_conter">
+        <item> </item>
+        <item>۱</item>
+        <item>۲</item>
+        <item>۳</item>
+        <item>۴</item>
+        <item>۵</item>
+        <item>۶</item>
+        <item>۷</item>
+        <item>۸</item>
+        <item>۹</item>
+        <item>۱۰</item>
+        <item>۱۱</item>
+        <item>۱۲</item>
+        <item>۱۳</item>
+        <item>۱۴</item>
+        <item>۱۵</item>
+        <item>۱۶</item>
+        <item>۱۷</item>
+        <item>۱۸</item>
+        <item>۱۹</item>
+        <item>۲۰</item>
+        <item>۲۱</item>
+        <item>۲۲</item>
+        <item>۲۳</item>
+        <item>۲۴</item>
+        <item>۲۵</item>
+        <item>۲۶</item>
+        <item>۲۷</item>
+        <item>۲۸</item>
+        <item>۲۹</item>
+        <item>۳۰</item>
+        <item>۳۱</item>
+        <item>۳۲</item><!--
+        <item>۳۳</item> <item>۳۴</item><item>۳۵</item><item>۳۶</item>
+        <item>۳۷</item><item>۳۸</item><item>۳۹</item><item>۴۰</item>
+
+        <item>۴۱</item><item>۴۲</item><item>۴۳</item><item>۴۴</item>
+        <item>۴۵</item><item>۴۶</item><item>۴۷</item><item>۴۸</item>
+        <item>۴۹</item><item>۵۰</item><item>۵۱</item><item>۵۲</item>
+        <item>۵۳</item><item>۵۴</item><item>۵۵</item><item>۵۶</item>
+        <item>۵۷</item><item>۵۸</item><item>۵۹</item><item>۶۰</item>
+        <item>۶۱</item><item>۶۲</item><item>۶۳</item><item>۶۴</item>
+        <item>۶۵</item><item>۶۶</item><item>۶۷</item><item>۶۸</item>
+        <item>۶۹</item><item>۷۰</item><item>۷۱</item><item>۷۲</item>
+        <item>۷۳</item><item>۷۴</item><item>۷۵</item><item>۷۶</item>
+        <item>۷۷</item><item>۷۸</item><item>۷۹</item><item>۸۰</item>
+        <item>۸۱</item><item>۸۲</item><item>۸۳</item><item>۸۴</item>
+        <item>۸۵</item><item>۸۶</item><item>۸۷</item><item>۸۸</item>
+        <item>۸۹</item><item>۹۰</item><item>۹۱</item><item>۹۲</item>
+        <item>۹۳</item><item>۹۴</item><item>۹۵</item><item>۹۶</item>
+        <item>۹۷</item><item>۹۸</item><item>۹۹</item><item>۱۰۰</item>
+        -->
+    </string-array>
+    <!-- **************************End Modifiable strings*************************** -->
+    <string name="menu_share">Sharing</string>
+    <string name="menu_rate">Rate</string>
+    <string name="menu_othersApp">Other Apps</string>
+    <string name="menu_AboutUs">About Us</string>
+    <string name="menu_ContactUs">Contact Us</string>
+    <string name="menu_ProgramGuide">Program guide</string>
+    <string name="menu_FontsAndColors">Fonts and Colors</string>
+    <string name="action_settings">Settings</string>
+    <!--*****************************************************************-->
+    <string name="menu_share_fa">اشتراک</string>
+    <string name="menu_rate_fa">امتیاز</string>
+    <string name="menu_othersApp_fa">برنامه های مرتبط</string>
+    <string name="menu_AboutUs_fa">درباره ما</string>
+    <string name="menu_ContactUs_fa">پل های ارتباطی</string>
+    <string name="menu_ProgramGuide_fa">راهنمای برنامه</string>
+    <string name="menu_FontsAndColors_fa">فونت و رنگ</string>
+    <string name="action_settings_fa">تنظیمات</string>
+    <!--*****************************************************************-->
+    <string name="menu_share_ur">سیکنڈ اور</string>
+    <string name="menu_rate_ur">اسکور</string>
+    <string name="menu_othersApp_ur">دیگر پروگراموں</string>
+    <string name="menu_AboutUs_ur">ہمارے بارے میں</string>
+    <string name="menu_ContactUs_ur">ہم سے رابطہ کریں</string>
+    <string name="menu_ProgramGuide_ur">پروگرام گائیڈ</string>
+    <string name="menu_FontsAndColors_ur">فونٹ اور رنگ</string>
+    <string name="action_settings_ur">ترتیبات</string>
+
+    <!--*****************************************************************-->
+    <string name="menu_share_ar">مشارکة بواسطة</string>
+    <string name="menu_rate_ar">تقييم البرنامج</string>
+    <string name="menu_othersApp_ar">التعریف بسائر البرامج</string>
+    <string name="menu_AboutUs_ar">حولنا</string>
+    <string name="menu_ContactUs_ar">اتصل بنا</string>
+    <string name="menu_ProgramGuide_ar">دليل البرامج</string>
+    <string name="menu_FontsAndColors_ar">الخطوط والألوان</string>
+    <string name="action_settings_ar">الضبط</string>
+
+    <!--*****************************************************************-->
+
+    <string name="rezaeian_en">حســـن رضــا رضــاییان</string>
+    <string name="rezaeian_fa">Hasan Reza Rezaeian</string>
+
+    <!-- ************************* -->
+    <string name="vidTex1">Video</string>
+    <string name="vidTex3">Image</string>
+    <string name="vidTex2">training</string>
+    <string name="noneen">None</string>
+    <!-- ************************* -->
+    <string name="vidTexFa1">ویدئویی</string>
+    <string name="vidTexFa3">تصویری</string>
+    <string name="vidTexFa2">آموزش</string>
+    <string name="nonefa">هیچ کدام</string>
+    <!-- ************************* -->
+    <string name="vidTexAr1">فيديو</string>
+    <string name="vidTexAr3">صورة</string>
+    <string name="vidTexAr2">تدريب</string>
+    <string name="none_ar">لا شيء</string>
+    <!-- ************************* -->
+    <string name="vidTexUr1">ویڈیو</string>
+    <string name="vidTexUr3">تصویر</string>
+    <string name="vidTexUr2">تربیت</string>
+    <string name="noneur">کوئی بھی</string>
+
+
+    <string name="alirezafa">عـلی رضـا صـــالحـــی</string>
+    <string name="alirezaen">Ali Reza Salehi</string>
+
+    <string name="copyen">All Rights Reserved © 2017</string>
+    <string name="copyfa2">© تمام حقوق محفوظ است</string>
+
+    <!--Appeks Strings-->
+    <string name="chanel_tamalakot">http://telegram.me/tamalakot</string>
+    <string name="chanel_appeks">http://telegram.me/appeksgroup</string>
+    <string name="website">http://appeks.com</string>
+    <string name="emailinfo">info@appeks.com</string>
+    <string name="insta">http://telegram.me/appeksgroup</string>
+    <string name="facebook">http://telegram.me/appeksgroup</string>
+    <string name="tewiter">http://telegram.me/appeksgroup</string>
+
+
+    <string name="sel_color_fa">انتخاب رنگ فونت</string>
+    <string name="sel_color_ar">حدد لون الخط</string>
+    <string name="sel_color_en">Select Color Font</string>
+    <string name="sel_color_ur">رنگ منتخب کریں</string>
+
+    <string name="btn_color_fa">انتخاب رنگ فونت</string>
+    <string name="btn_color_ar">حدد لون الخط</string>
+    <string name="btn_color_en">Select Color Font</string>
+    <string name="btn_color_ur">رنگ منتخب کریں</string>
+
+
+    <string name="st_color_en1">Touch me!</string>
+    <string name="st_color_fa1">حدد لون الخط</string>
+    <string name="st_color_ar1">Select Color Font</string>
+    <string name="st_color_ur1">رنگ منتخب کریں</string>
+
+    <!--                                                                              -->
+    <string name="title_fa">بازگشت به تنظیمات پیشفرض</string>
+    <string name="title_en">Reset to Default Settings</string>
+    <string name="title_ar">ارجع إلى الإعدادات الافتراضية</string>
+    <string name="title_ur">ترتیبات پر ری سیٹ کریں</string>
+
+    <string name="mess_fa">در صورت انتخاب گزینه بلی تمام تنظیمات برنامه به حالت پیش فرض باز نشانی خواهد شد.</string>
+    <string name="mess_en">When you select yes all Settings Reset to Default!</string>
+    <string name="mess_ar">عند تحديد نعم جميع إعدادات إعادة تعيين إلى الافتراضي!</string>
+    <string name="mess_ur">جب آپ ہاں منتخب کریں تو تمام ترتیبات پہلے سے طے شدہ پر ری سیٹ کریں!</string>
+
+    <string name="yes_btn_fa">بلی</string>
+    <string name="yes_btn_en">Yes</string>
+    <string name="yes_btn_ur">جی ہاں</string>
+    <string name="yes_btn_ar">نعم</string>
+
+    <string name="no_btn_fa">خیر</string>
+    <string name="no_btn_en">No</string>
+    <string name="no_btn_ar">لا</string>
+    <string name="no_btn_ur">نہیں</string>
+
+    <string name="toas_dia_fa">تمام تنظیمات به حالت پیش فرض باز نشانی شد.</string>
+    <string name="toas_dia_en">All Settings Reset to Default</string>
+    <string name="toas_dia_ar">جميع إعدادات إعادة تعيين إلى الافتراضي</string>
+    <string name="toas_dia_ur">تمام ترتیبات پہلے سے طے شدہ پر ری سیٹ کریں</string>
+
+    <string name="guide_title1_fa">برای نمایش راهنمایی تصویری مرا لمس کنید.</string>
+    <string name="guide_title2_fa">صفحه راهنمای مورد نظر خود را انتخاب کنید.</string>
+    <string name="guide_main_fa">صفحه اصلی</string>
+    <string name="guide_play_fa">صفحه دعا</string>
+    <string name="guide_setting_fa">تنظیمات</string>
+    <string name="guide_color_fa">قلم و رنگ</string>
+
+    <string name="guide_title1_en">Touche me to open video Guide.</string>
+    <string name="guide_title2_en">Select the Guide.</string>
+    <string name="guide_main_en">Main Page</string>
+    <string name="guide_play_en">Play Dua</string>
+    <string name="guide_setting_en">Settings</string>
+    <string name="guide_color_en">Font/Color</string>
+
+    <string name="guide_title1_ur">میرے ویڈیو گائیڈ کو دکھانے کے لئے مجھے چھو.</string>
+    <string name="guide_title2_ur">گائیڈ کو منتخب کریں</string>
+    <string name="guide_main_ur">ہوم پیج</string>
+    <string name="guide_play_ur"> اجرا دعا</string>
+    <string name="guide_setting_ur">ترتیبات</string>
+    <string name="guide_color_ur">لکھائی کا رنگ</string>
+
+    <string name="guide_title1_ar">توش لي لفتح دليل الفيديو</string>
+    <string name="guide_title2_ar">الصفحة الرئيسيةحدد الدليل.</string>
+    <string name="guide_main_ar">الصفحة الرئيسية</string>
+    <string name="guide_play_ar">صفحة دعاء</string>
+    <string name="guide_setting_ar">إعدادات</string>
+    <string name="guide_color_ar">لون الخط</string>
+
+    <string name="exit_text"></string>
+    <string name="exit">خــروج!</string>
+    <string name="star">امتیــاز</string>
+    <string name="hemayat">برای حمایت از ما لمس کنید.</string>
+
+    <string name="enteghad">(انتقادات و پیشنهادات)</string>
+    <string name="kharabi">(گزارش خرابی برنامه)</string>
+    <string name="matn">متن خود را وارد کنید.</string>
+
+</resources>

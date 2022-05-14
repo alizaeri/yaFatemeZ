@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/back5.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/back7.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/backlisthadis.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/backlistset.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/bgkatibe.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/bgmehrab.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/border.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/border_buttom_gray.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/border_buttom_green.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/border_sppiner.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/control.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/download_maddah.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/exit.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/guide_bg.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/katibebgcolor.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/logo_anim_alfa1.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/logo_anim_alfa2.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/logo_anim_alfa3.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/logo_anim_alfa4.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/logo_anim_alfa5.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/logo_anim_alfa6.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/logo_anim_alfa7.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/m.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/drawable/yourbuttonbggreen.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/layout/activity_guide_dua_page.xml" value="0.1" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/layout/activity_guide_font_colors_advance.xml" value="0.1" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/layout/activity_guide_main.xml" value="0.1" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/layout/activity_guide_settings.xml" value="0.1" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/layout/activity_guides.xml" value="0.10740740740740741" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/layout/activity_settings.xml" value="0.1" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/layout/activity_starter.xml" value="0.1" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/layout/activity_stater.xml" value="0.1" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/layout/laout_color_sel.xml" value="0.1" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/layout/row.xml" value="0.1" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/layout/row_quide.xml" value="0.15833333333333333" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/layout/simple_list_item_1.xml" value="0.1" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/layout/spinner.xml" value="0.1" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/menu/activity_main_drawer_ar.xml" value="0.1" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/mipmap-xhdpi/ic_launcher3.xml" value="0.1361111111111111" />
+        <entry key="..\:/Developers/app/yafateme/app/src/main/res/mipmap-xhdpi/ic_launcher_round.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/activity_about_us.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/activity_contact_us.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/activity_dua.xml" value="0.19984802431610943" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/activity_font_color_advance.xml" value="0.2016210739614995" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/activity_font_colors_advance.xml" value="0.2109375" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/activity_font_colors_normal.xml" value="0.225" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/activity_fonts_color_normal.xml" value="0.225" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/activity_guide_main.xml" value="0.12031408308004053" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/activity_main2.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/activity_setting.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/activity_settings.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/activity_splash.xml" value="0.31666666666666665" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/activity_starter.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/activity_starter2.xml" value="0.16927083333333334" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/app_bar_main.xml" value="0.15172101449275363" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/dialog_progress_bar.xml" value="0.33" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/dua2.xml" value="0.2066869300911854" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/exit.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/laout_color_sel.xml" value="0.2203125" />
+        <entry key="..\:/Users/aliza/AndroidStudioProjects/yafateme1/app/src/main/res/layout/nav_header_main.xml" value="0.75" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

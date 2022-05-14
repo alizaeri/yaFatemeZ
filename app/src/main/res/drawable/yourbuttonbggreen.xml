@@ -1,0 +1,16 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:drawable="@drawable/set_bgradioselecgreen"
+        android:state_checked="true"
+        android:state_pressed="true"
+
+        />
+    <item
+        android:drawable="@drawable/set_bgradioselecgreen"
+        android:state_pressed="true" />
+    <item
+        android:drawable="@drawable/set_bgradioselecgreen"
+        android:state_checked="true" />
+    <item
+        android:drawable="@drawable/set_bgradio" />
+</selector>

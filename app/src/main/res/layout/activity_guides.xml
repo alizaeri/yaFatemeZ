@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#3d3e43"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/liPhaz2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#fff"
+            android:shadowColor="#000000"
+            android:gravity="center"
+            android:shadowRadius="3"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:text="Touch Me to open Video Guide"
+            android:textSize="20sp"
+            android:layout_weight="0.00"
+            android:layout_marginBottom="5dp"/>
+
+        <ImageButton
+            android:id="@+id/VidTuts"
+            android:layout_width="65dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="@drawable/vid_tuts"/>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#1b1a1f">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#505156"
+            android:layout_marginBottom="10dp">
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#fff"
+            android:shadowColor="#000000"
+            android:gravity="center"
+            android:shadowRadius="3"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:text="Select the activity!"
+            android:textSize="20sp"
+            android:layout_weight="0.00"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="300dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="300dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/guide_main"
+                    android:id="@+id/btn_guide1"/>
+                <TextView
+                    android:id="@+id/tv_guide1"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:shadowColor="#000000"
+                    android:gravity="center"
+                    android:shadowRadius="3"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:text="Home Page"
+                    android:textSize="15sp"/>
+                <ImageButton
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/guide_font"
+                    android:id="@+id/btn_guide2"/>
+                <TextView
+                    android:id="@+id/tv_guide2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:shadowColor="#000000"
+                    android:gravity="center"
+                    android:shadowRadius="3"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:text="Settings"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="300dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/guide_play"
+                    android:id="@+id/btn_guide3"/>
+                <TextView
+                    android:id="@+id/tv_guide3"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:shadowColor="#000000"
+                    android:gravity="center"
+                    android:shadowRadius="3"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:text="Play Dua!"
+                    android:textSize="15sp"/>
+                <ImageButton
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/guide_set"
+                    android:id="@+id/btn_guide4"/>
+                <TextView
+                    android:id="@+id/tv_guide4"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:shadowColor="#000000"
+                    android:gravity="center"
+                    android:shadowRadius="3"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:text="Font / color!"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="33dp"
+        android:background="@drawable/set_logo"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
