@@ -6,12 +6,14 @@ import android.content.SharedPreferences
 import android.database.sqlite.SQLiteDatabase
 import android.graphics.Color
 import android.graphics.Typeface
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.view.animation.AnimationUtils
 import android.widget.*
+import androidx.annotation.RequiresApi
 import com.yafateme.app.yafateme.MainActivity.Companion.lang
 import com.yafateme.app.yafateme.Splash.Companion.itemsList
 import com.yafateme.app.yafateme.Splash.Companion.listLang
@@ -59,6 +61,8 @@ class StarterActivity : AppCompatActivity() {
         val animation = AnimationUtils.loadAnimation(this, R.anim.fade)
         saveLight!!.startAnimation(animation)
         saveLight2!!.startAnimation(animation)
+        val fontArabic = Typeface.createFromAsset(assets, "fonts/arabic.ttf")
+        val fontmyredM = Typeface.createFromAsset(assets, "fonts/myriadl.ttf")
         //----------------get-db-text-from-database------------------
 
         showData("language", "lang0", langApp)
@@ -70,6 +74,7 @@ class StarterActivity : AppCompatActivity() {
         spin_lang.setAdapter(adapter_lang)
         spin_lang.setOnItemSelectedListener(object : AdapterView.OnItemSelectedListener {
 
+            @RequiresApi(Build.VERSION_CODES.JELLY_BEAN_MR1)
             override fun onItemSelected(
                 parent: AdapterView<*>?,
                 view: View,
@@ -86,19 +91,31 @@ class StarterActivity : AppCompatActivity() {
                 if (spinner != null) {
                     lang = spinner?.id-1
                     Log.d("!!!", "Lang: set meghdare lang : $lang va spinner.id = ${spinner?.id} getitemposition : ${spinner} ")
-                   // Log.d("TAG", "onItemSelected: ${spinner.id}")
+
                 }
-                //lang = 1 //spinner?.id - 1)
+
                 view.textAlignment = View.TEXT_ALIGNMENT_CENTER
-                //                view.setBackgroundColor(Color.parseColor("#019595"));
                 view.setBackgroundResource(R.drawable.set_bgradioselect)
                 Lang(lang)
-                
+
                     when(lang){
-                        0-> text.setText(listLanguage[0].lang0)
-                        1-> text.setText(listLanguage[1].lang1)
-                        2-> text.setText(listLanguage[2].lang2)
-                        3-> text.setText(listLanguage[3].lang3)
+                        0-> {text.setText(listLanguage[0].lang0)
+                        save!!.setTypeface(fontArabic)
+                                save2!!.setTypeface(fontArabic)
+                                tex5!!.setTypeface(fontArabic)}
+                        1-> {text.setText(listLanguage[1].lang1)
+                            save!!.setTypeface(fontArabic)
+                            save2!!.setTypeface(fontArabic)
+                            tex5!!.setTypeface(fontArabic)}
+                        2-> {text.setText(listLanguage[2].lang2)
+                            save!!.setTypeface(fontmyredM)
+                            save2!!.setTypeface(fontmyredM)
+                            tex5!!.setTypeface(fontmyredM)}
+
+                        3-> {text.setText(listLanguage[3].lang3)
+                        save!!.setTypeface(fontArabic)
+                                save2!!.setTypeface(fontArabic)
+                                tex5!!.setTypeface(fontArabic)}
                     }
 
                 showData("language", "lang0", langApp)
@@ -131,8 +148,6 @@ class StarterActivity : AppCompatActivity() {
 
     fun Lang( l: Int) {
 
-
-
         for (item in listLang){
             if(item.id == 246){
                 when (l){
@@ -159,6 +174,7 @@ class StarterActivity : AppCompatActivity() {
                 }
 
                 }
+            /*
             if (l != 3) {
                 val fontArabic = Typeface.createFromAsset(assets, "fonts/arabic.ttf")
                 save!!.setTypeface(fontArabic)
@@ -171,27 +187,8 @@ class StarterActivity : AppCompatActivity() {
                 tex5!!.setTypeface(fontmyredM)
             }
 
-
+             */
         }
-
-       // tex5!!.text = db!!.namayesh(264, l, "lang")
-       // save!!.text = db!!.namayesh(265, l, "lang")
-       // save2!!.text = db!!.namayesh(266, l, "lang")
-       /* if (lang != 2) {
-            val fontArabic = Typeface.createFromAsset(assets, "fonts/arabic.ttf")
-            save!!.setTypeface(fontArabic)
-            save2!!.setTypeface(fontArabic)
-            tex5!!.setTypeface(fontArabic)
-        } else {
-            val fontmyredM = Typeface.createFromAsset(assets, "fonts/myriadl.ttf")
-            save!!.setTypeface(fontmyredM)
-            save2!!.setTypeface(fontmyredM)
-            tex5!!.setTypeface(fontmyredM)
-        }
-
-        */
-       // db!!.close()
-
     }
 
     @SuppressLint("Range")
@@ -210,29 +207,8 @@ class StarterActivity : AppCompatActivity() {
             }
 
             value.add(arrey)
-           // Log.d("!!!", "Lang: showdata = $lang va text =   ")
-
 
         }
-        //Log.d("!!!!!", "showData: lang is $lang  ")
-        /*
-     //   db = database(G.context!!)
-       // db!!.useable()
-       // db!!.open()
-     //   mydb = SQLiteDatabase.openDatabase(path + Name, null, SQLiteDatabase.OPEN_READWRITE)
-        val cu = mydb.rawQuery("select * from $tableName", null)
-        if (cu != null && cu.moveToFirst()) {
-            do {
-                val arrey = Spin()
-                arrey.id = cu.getString(cu.getColumnIndex("id")).toInt()
-                arrey.name = cu.getString(cu.getColumnIndex(nameField))
-                value.add(arrey)
-            } while (cu.moveToNext())
-        }
-        assert(cu != null)
-        cu!!.close()
-      //  db!!.close()
 
-         */
     }
 }
