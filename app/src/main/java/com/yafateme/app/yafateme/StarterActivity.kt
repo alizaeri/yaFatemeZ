@@ -93,6 +93,7 @@ class StarterActivity : AppCompatActivity() {
                     Log.d("!!!", "Lang: set meghdare lang : $lang va spinner.id = ${spinner?.id} getitemposition : ${spinner} ")
 
                 }
+                //alw
 
                 view.textAlignment = View.TEXT_ALIGNMENT_CENTER
                 view.setBackgroundResource(R.drawable.set_bgradioselect)
