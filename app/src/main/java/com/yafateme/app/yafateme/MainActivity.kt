@@ -61,17 +61,19 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     var liBtnStar: LinearLayout? = null
     var liBtnHemayat: LinearLayout? = null
     var llmain: LinearLayout? = null
-    var DirS = "/sdcard/Android/data/" + G.context?.getApplicationContext()?.getPackageName()
-        .toString() + "/"
+
+    //var DirS = "/sdcard/Android/data/" + G.context?.getApplicationContext()?.getPackageName()
+     //   .toString() + "/"
     var mydb: SQLiteDatabase? = null
     var menuDr = ArrayList<Menu>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        DirS = Utils.getRootDirPath(applicationContext)+"/"
         for (item in listLang){
-            Log.d("printlistlang", "onCreate: ${item.translateFa}")
-
+            Log.d("####", "onCreate: ${item.translateFa}")
         }
+
         //Pushe.initialize(this, true)
         //        AdCommon.init(this, getString(R.string.ad_sdk_key),false,true);
         var themp: Int
@@ -89,6 +91,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             themp = resources.getIdentifier(id[i], "id", packageName)
             linearLayout[i] = findViewById<View>(themp) as LinearLayout
         }
+
+
         val myFile = File(DirS + getString(R.string.rawString2) + ".mp3")
         val myFile2 = File(DirS + getString(R.string.rawString3) + ".mp3")
         val am = applicationContext.assets
@@ -153,9 +157,15 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         Pro = sp.getBoolean("Pro", true)
         Ads = sp.getBoolean("Ads", true)
         val edit = sp.edit()
+
         if (DataSong == 2) {
+
             if (!myFile.exists()) {
+                Log.d("##", "onCreate: $DataSong ")
                 DataSong = 1
+            }else{
+                Log.d("###", "onCreate: $DataSong ")
+
             }
         } else if (DataSong == 3) {
             if (!myFile2.exists()) {
@@ -349,7 +359,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     override fun onNavigationItemSelected(menuItem: MenuItem): Boolean {
         val id = menuItem.itemId
-        Log.d("aliali", "onNavigationItemSelected: $id ")
+       // Log.d("aliali", "onNavigationItemSelected: $id ")
         when (id) {
             0 -> ShareApp()
             1 -> Stars()
@@ -622,6 +632,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     companion object {
+        lateinit var DirS: String
         var ArabicSize = 0
         var FaSize = 0
         var EnSize = 0

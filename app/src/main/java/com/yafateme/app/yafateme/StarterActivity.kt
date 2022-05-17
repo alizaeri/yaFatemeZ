@@ -90,7 +90,7 @@ class StarterActivity : AppCompatActivity() {
                 val spinner: Spin? = adapter_lang!!.getItem(position)
                 if (spinner != null) {
                     lang = spinner?.id-1
-                    Log.d("!!!", "Lang: set meghdare lang : $lang va spinner.id = ${spinner?.id} getitemposition : ${spinner} ")
+                   // Log.d("!!!", "Lang: set meghdare lang : $lang va spinner.id = ${spinner?.id} getitemposition : ${spinner} ")
 
                 }
                 //alw

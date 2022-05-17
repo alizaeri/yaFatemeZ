@@ -23,6 +23,7 @@ import com.downloader.*
 import com.yafateme.app.yafateme.AdapterDuaPage.Companion.fontArabic
 import com.yafateme.app.yafateme.AdapterDuaPage.Companion.fontmyredM
 import com.yafateme.app.yafateme.MainActivity.Companion.DataSong
+import com.yafateme.app.yafateme.MainActivity.Companion.DirS
 import com.yafateme.app.yafateme.MainActivity.Companion.lang
 import com.yafateme.app.yafateme.Splash.Companion.listLang
 import com.yafateme.app.yafateme.Splash.Companion.listLanguage
@@ -69,7 +70,7 @@ class Setting : Activity() {
     private var toasDialog: String? = null
     private var noBtn: String? = null
     private var toas: String? = null
-    lateinit var DirS: String 
+
         //"/sdcard/Android/data/" + G.context!!.applicationContext.packageName.toString() + "/"
     var FileUrl: String? = null
     lateinit var file_name: String
@@ -525,7 +526,7 @@ class Setting : Activity() {
             PRDownloader.resume(downloadIdOne)
 
         }
-        downloadIdOne = PRDownloader.download(URL, "/storage/emulated/0/Android/data/com.yafateme.app.yafateme/files" , name)
+        downloadIdOne = PRDownloader.download(URL, DirS, name+".mp3")
             .build()
             .setOnStartOrResumeListener {
                 mProgressDialog.isIndeterminate = false

@@ -136,7 +136,7 @@ class SpinAdapter(
         }
         */
 
-        Log.d("!!!", "getCustomView: ${spin[position].name} ")
+      //  Log.d("!!!", "getCustomView: ${spin[position].name} ")
         return row
     }
 

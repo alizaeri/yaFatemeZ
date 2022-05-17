@@ -21,6 +21,7 @@ import androidx.recyclerview.widget.LinearSmoothScroller
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.SmoothScroller
 import com.yafateme.app.yafateme.MainActivity.Companion.DataSong
+import com.yafateme.app.yafateme.MainActivity.Companion.DirS
 import com.yafateme.app.yafateme.MainActivity.Companion.Review
 import com.yafateme.app.yafateme.MainActivity.Companion.lang
 
@@ -44,7 +45,6 @@ open class Dua : AppCompatActivity(), MediaPlayer.OnCompletionListener, SeekBar.
 
     private val menuItems: ArrayList<Item> = ArrayList<Item>()
     private var adapter: AdapterDuaPage? = null
-    var DirS = "/sdcard/Android/data/" + G.context!!.applicationContext.packageName.toString() + "/"
     var AdvLi: LinearLayout? = null
     private lateinit var memory: SharedPreferences
    // //private var db: database? = null
@@ -323,7 +323,7 @@ open class Dua : AppCompatActivity(), MediaPlayer.OnCompletionListener, SeekBar.
 
 
    fun conterMP() {
-       if (MainActivity.DataSong === 1) {
+       if (DataSong === 1) {
             mp = MediaPlayer.create(
                 this, resources.getIdentifier(
                     getString(R.string.rawString1), "raw",
@@ -331,15 +331,19 @@ open class Dua : AppCompatActivity(), MediaPlayer.OnCompletionListener, SeekBar.
                 )
             )
         } else {
+           mp = MediaPlayer.create(this,Uri.parse(DirS + "farahmand.mp3")                    )
 
-            for (i in 1 until maddah.size) {
+/*
+           for (i in 1 until maddah.size) {
                 var maddahStr : String
                 for (item in listLanguage){
-                    if (MainActivity.DataSong === maddah.get(i).id) {
+                 //  Log.d("#####", "conterMP: ${item.name2}")
+                    if (DataSong === maddah.get(i).id) {
                         maddahStr = item.name2.toString()
 
 
-                        mp = MediaPlayer.create(this,Uri.parse(DirS + maddahStr)                    )
+
+                        mp = MediaPlayer.create(this,Uri.parse(DirS + "farahmand.mp3")                    )
 
 
                     }
@@ -347,6 +351,7 @@ open class Dua : AppCompatActivity(), MediaPlayer.OnCompletionListener, SeekBar.
                 }
 
             }
+           */
         }
         for (i in 1 until xcount) {
             for (item in madhList){
@@ -402,7 +407,7 @@ open class Dua : AppCompatActivity(), MediaPlayer.OnCompletionListener, SeekBar.
         }
         fun toastShowe() {
 
-           
+
             Toast.makeText(G.context,"$numShowe", Toast.LENGTH_SHORT).show()
         }
         fun updateProgressBar() {
