@@ -23,7 +23,10 @@ import androidx.recyclerview.widget.RecyclerView.SmoothScroller
 import com.yafateme.app.yafateme.MainActivity.Companion.DataSong
 import com.yafateme.app.yafateme.MainActivity.Companion.DirS
 import com.yafateme.app.yafateme.MainActivity.Companion.Review
+import com.yafateme.app.yafateme.MainActivity.Companion.currentMaddah
 import com.yafateme.app.yafateme.MainActivity.Companion.lang
+import com.yafateme.app.yafateme.MainActivity.Companion.myFile
+import com.yafateme.app.yafateme.MainActivity.Companion.myFile2
 
 import com.yafateme.app.yafateme.MainActivity.Companion.xcount
 import com.yafateme.app.yafateme.Setting.Companion.maddah
@@ -81,8 +84,8 @@ open class Dua : AppCompatActivity(), MediaPlayer.OnCompletionListener, SeekBar.
         recDuaPage.setAdapter(adapter)
 
 
-        val myFile = File(DirS + "farahmand.mp3")
-        val myFile2 = File(DirS + "samavati.mp3")
+         myFile = File(DirS + "farahmand.mp3")
+         myFile2 = File(DirS + "samavati.mp3")
 
 
         SaveKhotbe = findViewById<View>(R.id.save_khotbe) as ImageButton
@@ -323,6 +326,29 @@ open class Dua : AppCompatActivity(), MediaPlayer.OnCompletionListener, SeekBar.
 
 
    fun conterMP() {
+       /*
+       if (DataSong === 1) {
+           mp = MediaPlayer.create(
+               this, resources.getIdentifier(
+                   getString(R.string.rawString1), "raw",
+                   packageName
+               )
+           )
+       } else {
+
+           for (i in 1 until maddah.size) {
+               var maddahStr : String
+               for (item in listLanguage){
+                   if (DataSong == maddah.get(i).id) {
+                       maddahStr = item.name2.toString()
+                       Log.d("!!!", "conterMP: $maddahStr")
+                       mp = MediaPlayer.create(this,Uri.parse(DirS + maddahStr))
+                   }
+               }
+           }
+
+        */
+
        if (DataSong === 1) {
             mp = MediaPlayer.create(
                 this, resources.getIdentifier(
@@ -331,9 +357,10 @@ open class Dua : AppCompatActivity(), MediaPlayer.OnCompletionListener, SeekBar.
                 )
             )
         } else {
-           mp = MediaPlayer.create(this,Uri.parse(DirS + "farahmand.mp3")                    )
+           mp = MediaPlayer.create(this,Uri.parse(DirS + currentMaddah ))
+              /*
 
-/*
+
            for (i in 1 until maddah.size) {
                 var maddahStr : String
                 for (item in listLanguage){
@@ -343,7 +370,7 @@ open class Dua : AppCompatActivity(), MediaPlayer.OnCompletionListener, SeekBar.
 
 
 
-                        mp = MediaPlayer.create(this,Uri.parse(DirS + "farahmand.mp3")                    )
+                        mp = MediaPlayer.create(this,Uri.parse(DirS + "samavati.mp3")                    )
 
 
                     }
@@ -352,6 +379,7 @@ open class Dua : AppCompatActivity(), MediaPlayer.OnCompletionListener, SeekBar.
 
             }
            */
+
         }
         for (i in 1 until xcount) {
             for (item in madhList){

@@ -7,6 +7,7 @@ import android.graphics.Typeface
 import android.net.Uri
 import android.os.Bundle
 import android.os.CountDownTimer
+import android.provider.Settings.Global.getString
 import android.util.Log
 import android.view.KeyEvent
 import android.view.Menu
@@ -70,9 +71,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         DirS = Utils.getRootDirPath(applicationContext)+"/"
-        for (item in listLang){
-            Log.d("####", "onCreate: ${item.translateFa}")
-        }
+        Log.d("#DirS", "onCreate: ${DirS}")
+
+
 
         //Pushe.initialize(this, true)
         //        AdCommon.init(this, getString(R.string.ad_sdk_key),false,true);
@@ -93,8 +94,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         }
 
 
-        val myFile = File(DirS + getString(R.string.rawString2) + ".mp3")
-        val myFile2 = File(DirS + getString(R.string.rawString3) + ".mp3")
+         myFile = File(DirS + getString(R.string.rawString2) + ".mp3")
+         myFile2 = File(DirS + getString(R.string.rawString3) + ".mp3")
         val am = applicationContext.assets
         fontArabic =
             Typeface.createFromAsset(am, String.format(Locale.US, "fonts/%s", "arabic.ttf"))
@@ -161,17 +162,24 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         if (DataSong == 2) {
 
             if (!myFile.exists()) {
-                Log.d("##", "onCreate: $DataSong ")
+                Log.d(" not exists", "onCreate zaeri ")
                 DataSong = 1
+                currentMaddah = "zaeri.mp3"
             }else{
-                Log.d("###", "onCreate: $DataSong ")
+                Log.d(" exists", "onCreate: farahmand  ")
+                DataSong= 2
+                currentMaddah = "farahmand.mp3"
 
             }
         } else if (DataSong == 3) {
             if (!myFile2.exists()) {
+                Log.d("not exists", "onCreate zaeri2  ")
                 DataSong = 1
+                currentMaddah = "zaeri.mp3"
             } else {
+                Log.d("exists", "onCreate samavati ")
                 DataSong = 3
+                currentMaddah = "samavati.mp3"
             }
         }
         edit.putInt("DataSong", DataSong)
@@ -632,6 +640,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     companion object {
+        lateinit var currentMaddah: String
+        lateinit var myFile : File
+        lateinit var myFile2 : File
         lateinit var DirS: String
         var ArabicSize = 0
         var FaSize = 0

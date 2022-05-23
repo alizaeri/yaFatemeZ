@@ -103,7 +103,7 @@ class Setting : Activity() {
             .setDatabaseEnabled(true)
             .build()
         PRDownloader.initialize(applicationContext, config)
-        DirS = Utils.getRootDirPath(applicationContext)+"/"
+
         Log.d("dirPath", "onCreate: $DirS ")
 
         fontmyredM = Typeface.createFromAsset(assets, "fonts/myriadl.ttf")
